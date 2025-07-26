@@ -28,15 +28,29 @@ By: [Chen, D. (2015). Online Retail [Dataset]. UCI Machine Learning Repository. 
 
 [View cleaned dataset](https://github.com/zidvision/RFM-Analysis/blob/main/Data/Online_Retail_Cleaned.xlsx)
 
+### Create Customer Summary
+- Imported the cleaned dataset
+- Aggregated data by CustomerID to create key customer-level metrics such as:
+  - **TotalOrder**: Number of transactions
+  - **TotalQuantity**: Total items purchased
+  - **TotalSpend**: Total monetary value spent
+  - **FirstPurchase** and **LastPurchase**: First and latest purchase dates
+- Additional metrics for deeper analysis:
+  - **Average Basket Size** = TotalQuantity / TotalOrders
+  - **Average Order Value** = TotalSpend / TotalOrders
+  - **Days Since Last Purchase** = Days since last transaction (based on latest date in dataset)
+
+  *These metrics are not directly used in RFM segmentation but provide richer insights for profiling customer behavior and designing targeted marketing strategies. These features can be used in further clustering or customer persona development beyond RFM.*
+
+[Explore the code](https://github.com/zidvision/RFM-Analysis/blob/main/Code/Customer_Summary_Process.ipynb)
+
+[View Customer Summary](https://github.com/zidvision/RFM-Analysis/blob/main/Data/Customer_Summary.csv)
+
 ### RFM Score Calculation  
 - **Recency**: Days since last purchase  
 - **Frequency**: Total number of transactions  
 - **Monetary**: Total money spent  
 - Used quantiles to assign R, F, and M scores (1–5) to each customer
-
-[Explore the code](https://github.com/zidvision/RFM-Analysis/blob/main/Code/Customer_Summary_Process.ipynb)
-
-[View Customer Summary](https://github.com/zidvision/RFM-Analysis/blob/main/Data/Customer_Summary.csv)
 
 ### Customer Segmentation  
 - Combined RFM scores into segments (e.g., Champions, At Risk, Lost, etc.)  
