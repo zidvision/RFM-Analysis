@@ -59,6 +59,7 @@ Explore the Power BI Dashboard that visualizes:
 - Revenue Insights by Segment
 
 👉 [View the interactive dashboard](https://github.com/zidvision/RFM-Analysis/blob/main/Visualization/Dashboard%20Image.png)
+
 👉 [Open Power BI Dashboard](https://github.com/zidvision/RFM-Analysis/blob/main/Visualization/RFM_Dashboard.pbix)
 
 ---
