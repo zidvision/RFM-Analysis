@@ -36,11 +36,15 @@ By: [Chen, D. (2015). Online Retail [Dataset]. UCI Machine Learning Repository. 
 
 [Explore the code](https://github.com/zidvision/RFM-Analysis/blob/main/Code/Customer_Summary_Process.ipynb)
 
+[View Customer Summary](https://github.com/zidvision/RFM-Analysis/blob/main/Data/Customer_Summary.csv)
+
 ### Customer Segmentation  
 - Combined RFM scores into segments (e.g., Champions, At Risk, Lost, etc.)  
 - Segmentation using clustering logic and domain knowledge
 
 [Explore the code](https://github.com/zidvision/RFM-Analysis/blob/main/Code/RFM_Analysis.ipynb)
+
+[View RFM Segment](https://github.com/zidvision/RFM-Analysis/blob/main/Data/RFM_Segmented.csv)
 
 ### Dashboard Creation  
 Built an interactive dashboard in **Power BI** using the RFM segment data
