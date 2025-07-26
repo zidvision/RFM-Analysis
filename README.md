@@ -72,4 +72,5 @@ Using RFM segmentation, we can prioritize our marketing efforts:
 - Re-engage **At Risk** and **Hibernating** customers with promotions  
 - Monitor **New** and **Potential Loyalist** customers to turn them into **Loyal** ones
 
-Tools: Excel, Python, Jupyter Notebook, Power BI
+## Tools
+Excel, Python, Jupyter Notebook, Power BI
